@@ -40,3 +40,28 @@ It is cheap to manufacture with low material cost, easily replicable, low mainte
 9. Ultrasonics sensors
 10. Buzzer
 11. Breadboard
+
+How the connections work in hardware:
+
+1. Insert the L298P board into the Arduino UNO R3 board as all in one set.
+
+2. Connect the transmit pin from L298P to receiver pin of ESP8266 Wifi Module.
+
+3. Repeat step 2, this time to connect from receiver pin of L298P to transmit pin of ESP8266.
+
+4. Power up the Wifi Module of 3V3 source pin from L298P to ESP8266.
+
+5. Repeat step 4, this time to connect ground for both.
+
+6. Lastly is to connect the reset pin for both boards of ESP8266 and L298P.
+
+7. Finally to power up the main board of Arduino UNO by plugging in USB to Socket serial type cable from Powerbank.
+
+
+Steps to use the application of Remote XY to control the buzzer using Arduino C program functionality:
+
+1. 
+
+2. 
+
+2. 
