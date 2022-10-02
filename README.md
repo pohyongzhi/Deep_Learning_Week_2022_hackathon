@@ -6,7 +6,7 @@ Develop AI models or IoT solutions that solve industrial or social problems in t
 society development. The Smart Nation is an initiative by the Government of Singapore to harness
 from info-comm technologies, networks, and big data to create tech-enabled solutions.
 
-**Live Demo**: ADD LINK HERE
+**Live Demo**: https://youtu.be/jgbvyDLEyAU
 
 ## What the project does?
 Allow accelerated learning for individuals who have visual impairment, through the use of radiofrequency sensors to warn and alert the user of danger.
