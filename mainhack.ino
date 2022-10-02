@@ -57,5 +57,5 @@ void loop() {
     Serial.print(distance);
     Serial.println(" cm");
   }
-  
+
 }
