@@ -17,7 +17,7 @@ It uses an ultrasonic sensor attached to a blind stick to measure the distance b
 ## Why should you use the Smart Cane?
 It is cheap to manufacture with low material cost, easily replicable, low maintenance cost. Therefore affordable for individuals to use our Smart Cane. It is also counter-intuitive to use with very simple app interface for Smart Alert app and straightforward design for the Smart Cane. 
 
-## How the connections work in hardware:
+## How the connections work in hardware?
 1. Insert the L298P board into the Arduino UNO R3 board as all in one set.
 2. Connect the transmit pin from L298P to receiver pin of ESP8266 Wifi Module.
 3. Repeat step 2, this time to connect from receiver pin of L298P to transmit pin of ESP8266.
