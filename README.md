@@ -18,6 +18,8 @@ It uses an ultrasonic sensor attached to a blind stick to measure the distance b
 It is cheap to manufacture with low material cost, easily replicable, low maintenance cost. Therefore affordable for individuals to use our Smart Cane. It is also counter-intuitive to use with very simple app interface for Smart Alert app and straightforward design for the Smart Cane. 
 
 ## How the connections work in hardware?
+For Arduino:
+
 1. Insert the L298P board into the Arduino UNO R3 board as all in one set.
 2. Connect the transmit pin from L298P to receiver pin of ESP8266 Wifi Module.
 3. Repeat step 2, this time to connect from receiver pin of L298P to transmit pin of ESP8266.
@@ -25,6 +27,9 @@ It is cheap to manufacture with low material cost, easily replicable, low mainte
 5. Repeat step 4, this time to connect ground for both.
 6. Lastly is to connect the reset pin for both boards of ESP8266 and L298P.
 7. Finally to power up the main board of Arduino UNO by plugging in USB to Socket serial type cable from Powerbank.
+
+For Raspberry Pi:
+1. continue
 
 ## Technologies
 ### Backend
