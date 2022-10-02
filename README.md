@@ -9,7 +9,7 @@ from info-comm technologies, networks, and big data to create tech-enabled solut
 **Live Demo**: https://youtu.be/jgbvyDLEyAU
 
 ## What the project does?
-Allow accelerated learning for individuals who have visual impairment, through the use of radiofrequency sensors to warn and alert the user of danger.
+We have identify social problems such as people with disability figures are high according to the ministry of social and family development. As such of the smart nation initiative, we have decided to implement IoT solutions which is to allow accelerated learning for individuals who have visual impairment, through the use of radiofrequency sensors to warn and alert the user of danger.
 
 ## How does Smart Cane work?
 It uses an ultrasonic sensor attached to a blind stick to measure the distance between an object and the stick. It will feedback signs of danger through a buzzer back to the user. With additional mobile software (Smart Alert), the user is able to press a button to alert surrounding people for help. The app is targeted towards user who are visually impared and mute. 
@@ -29,7 +29,14 @@ For Arduino:
 7. Finally to power up the main board of Arduino UNO by plugging in USB to Socket serial type cable from Powerbank.
 
 For Raspberry Pi:
-1. continue
+1. Our team have the raspberry Pi and the Grove Pi kit as our hardware sensor for the prototype.
+2. The Raspberry Pi act as an operating system which we decided to leverage on its massive application.
+3. The grove pi set allows us to utilise the components which include the buzzer and ultra sonic sensor.
+4. The ultra sonic function is to measure distance and the buzzer will buzz when the distance reads less than 10 cm. 
+5. For setup, a microsd card containing the Raspbian OS will be inserted into the Raspberry Pi board. 
+6. Upon boot up, a mouse and keyboard for our IO is required. 
+7. Our team wrote the code in python language. 
+8. Upon completion, connection to the prototype is done and tested to measure the effectiveness
 
 ## Technologies
 ### Backend
